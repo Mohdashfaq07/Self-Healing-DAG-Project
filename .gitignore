@@ -1,0 +1,39 @@
+# -----------------------------
+# Self-Healing DAG Project
+# -----------------------------
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore model weights (too large for GitHub)
+models/fine_tuned_model/*.bin
+models/fine_tuned_model/*.safetensors
+models/fine_tuned_model/pytorch_model.bin
+
+# Ignore datasets and cache
+data/
+cache/
+*.csv
+*.json
+
+# Ignore temporary logs and artifacts
+*.log
+logs/
+*.tmp
+
+# Ignore Hugging Face / Transformers cache
+~/.cache/

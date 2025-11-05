@@ -1,0 +1,27 @@
+[2025-11-05 14:49:21] InferenceNode -> Predicted: POSITIVE, Confidence: 0.60
+[2025-11-05 14:49:21] ConfidenceCheckNode -> Low confidence, triggering fallback
+[2025-11-05 14:49:30] FallbackNode -> User clarification => NEGATIVE
+[2025-11-05 14:49:30] Final Decision -> NEGATIVE
+[2025-11-05 14:50:12] InferenceNode -> Predicted: POSITIVE, Confidence: 0.60
+[2025-11-05 14:50:12] ConfidenceCheckNode -> Low confidence, triggering fallback
+[2025-11-05 14:50:15] FallbackNode -> User clarification => POSITIVE
+[2025-11-05 14:50:15] Final Decision -> POSITIVE
+[2025-11-05 14:52:02] InferenceNode -> Predicted: NEGATIVE, Confidence: 0.95
+[2025-11-05 14:52:02] ConfidenceCheckNode -> High confidence, accepted model output
+[2025-11-05 14:52:02] Final Decision -> NEGATIVE
+[2025-11-05 16:47:41] InferenceNode -> Predicted: NEGATIVE, Confidence: 0.97
+[2025-11-05 16:47:41] ConfidenceCheckNode -> High confidence, accepted model output
+[2025-11-05 16:47:41] Final Decision -> NEGATIVE
+[2025-11-05 16:49:19] InferenceNode -> Predicted: NEGATIVE, Confidence: 0.77
+[2025-11-05 16:49:19] ConfidenceCheckNode -> High confidence, accepted model output
+[2025-11-05 16:49:19] Final Decision -> NEGATIVE
+[2025-11-05 16:52:00] InferenceNode -> Predicted: NEGATIVE, Confidence: 0.97
+[2025-11-05 16:52:00] ConfidenceCheckNode -> High confidence (0.97), accepted model output
+[2025-11-05 16:52:00] Final Decision -> NEGATIVE
+[2025-11-05 16:54:12] InferenceNode -> Predicted: NEGATIVE, Confidence: 0.97
+[2025-11-05 16:54:12] ConfidenceCheckNode -> (Demo Mode) Triggering fallback even with high confidence (0.97)
+[2025-11-05 16:54:42] FallbackNode -> User clarification => NEGATIVE
+[2025-11-05 16:54:42] Final Decision -> NEGATIVE
+[2025-11-05 16:56:13] InferenceNode -> Predicted: NEGATIVE, Confidence: 0.97
+[2025-11-05 16:56:13] ConfidenceCheckNode -> Forced low confidence (for expected demo output)
+[2025-11-05 16:56:32] FallbackNode -> User clarified => NEGATIVE
