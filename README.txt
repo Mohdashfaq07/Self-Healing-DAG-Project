@@ -17,3 +17,11 @@ Expected Output (example):
 [FallbackNode] Could you clarify your intent? Was this a negative review?
 User: Yes, it was definitely negative.
 Final Label: Negative (Corrected via user clarification)
+
+How It Works:
+InferenceNode – predicts sentiment using the fine-tuned model.
+ConfidenceCheckNode – checks prediction confidence.
+FallbackNode – if confidence is low, asks the user to clarify the intent.
+Self-Healing Decision – final corrected label is printed.
+
+DEMO VIDEO LINK: https://drive.google.com/file/d/1M3MnY5ryhmWwcvE0vRtZHgXyKd1myoe4/view?usp=drivesdk 
